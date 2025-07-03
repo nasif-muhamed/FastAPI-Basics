@@ -1,0 +1,8 @@
+FastAPI Basics Notes:
+Setup Steps:
+1. Create and activate virtual environment: python -m venv environment + environment\Scripts\activate 
+2. Install required liberaries: pip install fastapi "uvicorn[standard]" 
+- uvicorn is the server used by fastapi(server used)
+3. Add requirements.txt: pip freeze > requirements.txt
+4. Create Fie main.py(whatever file name we wish): refer the main.py in the repo.
+5. Run server: uvicorn main:app --reload (will be available on http://127.0.0.1:8000)
